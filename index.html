@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <nav id="menu1"
+        data-top-top="opacity: 0.8;"
+        data-200-top-bottom="opacity: 0.8;"
+        data-100-top-bottom="opacity: 0;"
+        data-anchor-target=".section1">
+        <h1>super menu</h1>
+    </nav>
+    <nav id="menu2"
+        data-100-top-top="opacity: 0;"
+        data-top-top="opacity: 0.8;"
+        data-100-top-bottom="opacity: 0;"
+        data-200-top-bottom="opacity: 0.8;"
+        data-anchor-target='.section2'>
+        <h1>super menu</h1>
+    </nav>
+    <nav id="menu3"
+        data-100-top-top="opacity: 0;"
+        data-top-top="opacity: 0.8;"
+        data-200-top-bottom="opacity: 0.8;"
+        data-100-top-bottom="opacity: 0;"
+        data-anchor-target='.section3'>
+        <h1>super menu</h1>
+    </nav>
+    <section class="section1">
+      <div class="container">
+        <h2>Thanks for all the fish!</h2>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="container">
+        <h2>I'll be back!</h2>
+      </div>
+    </section>
+    <section class="section3">
+      <div class="container">
+        <h2>Zed's dead baby, Zed's dead.</h2>
+      </div>
+    </section>
+    <script src="skrollr.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init({
+      forceHeight: false
+    });
+    </script>
+  </body>
+</html>
